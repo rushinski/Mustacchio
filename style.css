@@ -1,3 +1,4 @@
+@import url(https://db.onlinewebfonts.com/c/99822a8cb6673dc5a488266b4cd83e1e?family=Boca+Raton+Solid+Regular);
 .beacon-image-container {
   width: 100%;
   height: 400px;
@@ -50,6 +51,27 @@
   color: white;
   background-color: #0ca39c;
   padding: 15px 30px 15px 30px;
+}
+.characters {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  justify-content: space-between;
+  width: 70%;
+}
+  .characters img {
+    border: solid black 2px;
+  }
+.names {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 57%;
+  font-family: "Boca Raton Solid Regular";
+  font-size: 20px;
 }
 
 
